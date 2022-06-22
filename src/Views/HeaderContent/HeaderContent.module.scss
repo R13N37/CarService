@@ -1,0 +1,111 @@
+@import "../../styles/main.scss";
+.wrapper {
+  .topBar {
+    display: flex;
+    width: 100%;
+    background: map-get($gray, 2);
+    color: map-get($gray, 1);
+    height: 50px;
+
+    .buttonContainer {
+      display: flex;
+      width: 220px;
+    }
+    .buttonTopBar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 185px;
+      height: 50px;
+      font-size: 18px;
+      font-weight: 700;
+      border: none;
+      font-family: "Poppins", sans-serif;
+      gap: 8px;
+      padding-right: 20px;
+      color: map-get($black, 1);
+      background: map-get($orange, 1);
+    }
+    .buttonIcon {
+      font-size: 24px;
+    }
+    .figure {
+      width: 40px;
+      height: 50px;
+      background: map-get($orange, 1);
+    }
+    .buttonIcon {
+      font-size: 21px;
+    }
+    .contactInfoContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      padding-left: 228px;
+      padding-right: 103px;
+      line-height: 9px;
+      font-family: "Roboto", sans-serif;
+    }
+    .contactInfo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-weight: 500;
+    }
+    .icon {
+      width: 15px;
+      height: 15px;
+      color: map-get($white, 1);
+      font-size: 20px;
+    }
+    .phoneNumber {
+      color: map-get($white, 1);
+      cursor: pointer;
+    }
+    .phoneNumber:hover {
+      color: map-get($orange, 1);
+      transition: 0.3s;
+    }
+    .iconClock {
+      font-size: 18px;
+      color: map-get($white, 1);
+    }
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: map-get($white, 1);
+    max-width: 1170px;
+    height: 98px;
+    flex: 1;
+    padding-right: 20px;
+
+    .items {
+      display: flex;
+      padding-left: 50px;
+      padding-right: 85px;
+      font-family: "Poppins", sans-serif;
+      gap: 20px;
+      flex: 1;
+    }
+
+    .logo {
+      width: 184px;
+      height: 70px;
+    }
+    .iconsWrapper {
+      display: flex;
+      gap: 23px;
+    }
+    .iconSearch {
+      font-size: 19px;
+    }
+    .iconCart {
+      font-size: 19px;
+    }
+  }
+}
